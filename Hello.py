@@ -1,3 +1,3 @@
-print("Hi")
-a=23456789
-print(range(a))
+for a in range(1, 10):
+    if a % 2 == 0:
+        print("The value is the Even number:", a)
